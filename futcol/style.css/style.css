@@ -1,0 +1,123 @@
+/* ------------------ GENERAL ------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ------------------ NAVBAR ------------------ */
+header {
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header img {
+  width: 100px;
+  vertical-align: middle;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------ SECCIONES ------------------ */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* ------------------ PRODUCTOS ------------------ */
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.producto {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.producto h3 {
+  margin: 10px 0;
+  color: #0077b6;
+}
+
+.producto p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* ------------------ FOOTER ------------------ */
+footer {
+  background: #023e8a;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+/* === Mantener el footer abajo === */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+/* El contenido principal debe expandirse */
+main, section {
+    flex: 1; /* Empuja el footer hacia abajo */
+}
+
+/* Footer siempre al final */
+footer {
+    margin-top: auto;
+}
