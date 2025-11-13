@@ -177,6 +177,104 @@
         <img src="https://tiendaverde.com.co/cdn/shop/files/AN-EC0703.jpg?v=1737132271&width=400=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Atletico Nacional">
         <h3>Atletico Nacional</h3>
         <p>$350.000</p>
+  </div>
+
+  <div class="producto">
+    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/d9987c5f70b14d6e8844a20f46f45555_9366/Camiseta_Local_Arsenal_25-26_Rojo_JI9517_01_laydown.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Arsenal">
+    <h3>Arsenal</h3>
+  <p>$320.000</p>
+  </div>
+
+   <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/maillot-domicile-2526-asmonaco.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa As Monaco">
+    <h3>As Monaco</h3>
+    <p>$320.000</p>
+  </div>
+
+   <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/maillot-domicile-atalanta-2526.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Atalanta">
+    <h3>Atalanta</h3>
+    <p>$330.000</p>
+  </div>
+
+   <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/maillot-domicile-2526-atleticodemadrid.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Atlético de Madrid">
+    <h3>Atletico de Madrid</h3>
+    <p>$330.000</p>
+  </div>
+
+   <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/maillot-domicile-2526-bayern.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Bayern Múnich">
+    <h3>Bayern Múnich</h3>
+    <p>$340.000</p>
+  </div>
+
+   <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/dortmund-home-2025-2026-68e922c279bf2.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Borussia Dortmund">
+    <h3>Borussia Dortmund</h3>
+    <p>$340.000</p>
+  </div>
+
+   <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/maillot-domicile-2526-chelsea.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Chelsea">
+    <h3>Chelsea</h3>
+    <p>$340.000</p>
+  </div>
+
+   <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/maillot-domicile-2526-intermilan.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Inter de Milán">
+    <h3>Inter de Milán</h3>
+    <p>$330.000</p>
+  </div>
+
+   <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/maillot-domicile-2526-juventus.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Juventus">
+    <h3>Juventus</h3>
+    <p>$320.000</p>
+  </div>
+
+   <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/liverpool-home-2025-2026.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa  Liverpool">
+    <h3> Liverpool</h3>
+    <p>$330.000</p>
+  </div>
+
+  <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/maillot-domicile-2526-manchestercity.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Manchester City">
+    <h3>Manchester City</h3>
+    <p>$340.000</p>
+  </div>
+
+  <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/newcastle-home-2025-2026.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Newcastle United">
+    <h3>Newcastle United</h3>
+    <p>$320.000</p>
+  </div>
+
+  <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/maillot-domicile-2526-psg.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Paris Saint-Germain">
+    <h3>Paris Saint-Germain</h3>
+    <p>$320.000</p>
+  </div>
+
+  <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/maillot-domicile-2526-naples.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa SSC Nápoles">
+    <h3>SSC Nápoles</h3>
+    <p>$310.000</p>
+  </div>
+
+   <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/maillot-domicile-2526-tottenham.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Tottenham Hotspur">
+    <h3>Tottenham Hotspur</h3>
+    <p>$310.000</p>
+  </div>
+
+  <div class="producto">
+    <img src="https://assets-es.imgfoot.com/media/cache/800x800/maillot-domicile-2526-villarreal.jpg=:" alt="width="200" height="200" style="border-radius: 10px; Camisa Villarreal">
+    <h3>Villarreal</h3>
+    <p>$310.000</p>
+  </div>
+
 
     </div>
   </div>
