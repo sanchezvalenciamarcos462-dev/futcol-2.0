@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Inicio — Futcol</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     * {
       margin: 0;
@@ -26,6 +29,7 @@
       padding: 15px 40px;
       flex-wrap: wrap;
       box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      position: relative;
     }
 
     header img {
@@ -43,6 +47,7 @@
       text-transform: uppercase;
     }
 
+    /* MENU NORMAL */
     nav ul {
       list-style: none;
       display: flex;
@@ -61,6 +66,23 @@
       color: #ffcc00;
     }
 
+    /* BOTÓN HAMBURGUESA */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      width: 30px;
+      cursor: pointer;
+      gap: 5px;
+    }
+
+    .hamburger span {
+      height: 4px;
+      width: 100%;
+      background: #fff;
+      border-radius: 5px;
+    }
+
+    /* HERO */
     .hero {
       background: url("fondo.jpg") center/cover no-repeat;
       height: 80vh;
@@ -175,38 +197,76 @@
       font-size: 0.9rem;
     }
 
+    /* ------------------------- */
+    /*   RESPONSIVE 768PX       */
+    /* ------------------------- */
     @media (max-width: 768px) {
-      header {
-        flex-direction: column;
-        gap: 15px;
+
+      /* Mostrar botón hamburguesa */
+      .hamburger {
+        display: flex;
       }
 
+      /* Esconder menú normal */
       nav ul {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: #111;
+        width: 100%;
         flex-direction: column;
         align-items: center;
+        padding: 20px 0;
+        gap: 20px;
+        display: none;
+      }
+
+      nav ul.activo {
+        display: flex;
+      }
+
+      header {
+        padding: 15px 20px;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
       }
 
       .hero h2 {
         font-size: 2rem;
       }
     }
+
   </style>
 </head>
 <body>
 
 <header>
- <img src="imagenes/https://chatgpt.com/backend-api/estuary/content?id=file_000000006568720eb994498442e9a958&ts=489720&p=fs&cid=1&sig=f1a1d9d1e8e2400a34347d067286931cfd5a1bd8afb31a6d275a7c5452aafef0&v=0" alt="Logo Futcol" class="logo">
 
-  <h1>Futcol</h1>https:
+  <img src="imagenes/logo.png" alt="Logo Futcol" class="logo">
+
+  <h1>Futcol</h1>
+
+  <!-- BOTÓN HAMBURGUESA -->
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- MENÚ -->
   <nav>
-    <ul>
+    <ul id="menu">
       <li><a href="index.php" class="activo">Inicio</a></li>
       <li><a href="productos.php">Productos</a></li>
       <li><a href="acerca.php">Acerca</a></li>
       <li><a href="contacto.php">Contacto</a></li>
     </ul>
   </nav>
+
 </header>
+
 
 <section class="hero">
   <div class="hero-content">
@@ -242,6 +302,12 @@
 <footer>
   <p>© 2025 Futcol — Todos los derechos reservados.</p>
 </footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("activo");
+}
+</script>
 
 </body>
 </html>
